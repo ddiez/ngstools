@@ -1,4 +1,4 @@
-# q3tools
+# ngstools
 
 [![Build Status](https://travis-ci.org/ddiez/ngstools.svg?branch=master)](https://travis-ci.org/ddiez/ngstools)
 [![codecov](https://codecov.io/gh/ddiez/ngstools/branch/master/graph/badge.svg)](https://codecov.io/gh/ddiez/ngstools)
