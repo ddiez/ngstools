@@ -9,7 +9,7 @@
 #' @import GenomicAlignments
 #' @importFrom dplyr bind_rows
 #' @importFrom IRanges RleList
-#' @importFrom ShortRead alphabetByCycle
+#' @importFrom ShortRead alphabetByCycle readFastq sread
 #' @importFrom GenomeInfoDb genomeStyles seqlevels
 #' @importFrom reshape2 melt
 NULL
