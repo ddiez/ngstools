@@ -10,6 +10,6 @@
 #' @importFrom dplyr bind_rows
 #' @importFrom IRanges RleList
 #' @importFrom ShortRead alphabetByCycle readFastq sread
-#' @importFrom GenomeInfoDb genomeStyles seqlevels
+#' @importFrom GenomeInfoDb genomeStyles seqlevels organism
 #' @importFrom reshape2 melt
 NULL
