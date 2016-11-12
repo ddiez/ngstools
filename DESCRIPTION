@@ -8,6 +8,7 @@ Description: For the moment provides some useful tools for the analysis of
 Imports:
     reshape2,
     dplyr,
+    IRanges,
     GenomicAlignments,
     GenomeInfoDb
 License: MIT

@@ -8,6 +8,7 @@
 #'
 #' @import GenomicAlignments
 #' @importFrom dplyr bind_rows
+#' @importFrom IRanges RleList
 #' @importFrom GenomeInfoDb genomeStyles
 #' @importFrom reshape2 melt
 NULL
