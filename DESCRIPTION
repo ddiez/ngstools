@@ -12,6 +12,8 @@ Imports:
     GenomicAlignments,
     GenomeInfoDb,
     ShortRead
+Suggests:
+    testthat
 License: MIT
 Encoding: UTF-8
 LazyData: true
