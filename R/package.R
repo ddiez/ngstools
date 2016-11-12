@@ -1,6 +1,7 @@
-#' ngstools
+#' Miscellaneous Tools for the Analysis of NGS Data
 #'
-#' Tools for the analysis of NGS data.
+#' For the moment provides some useful tools for the analysis of NGS data.
+#' Helpful to keep things in one place.
 #'
 #' @name ngstools
 #' @docType package
