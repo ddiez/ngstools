@@ -7,9 +7,9 @@
 check_phred(filenames, nlines = 1000)
 }
 \arguments{
-\item{nlines}{number of quality lines to check.}
+\item{filenames}{name of fastq file(s) to check.}
 
-\item{filename}{name of fastq file(s) to check.}
+\item{nlines}{number of quality lines to check.}
 }
 \description{
 checks the Phred encoding for the quality scores in fastq files.

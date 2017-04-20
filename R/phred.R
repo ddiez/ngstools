@@ -31,7 +31,7 @@ check_phred_range <- function(filename, nlines = 1000) {
 #'
 #' checks the Phred encoding for the quality scores in fastq files.
 #'
-#' @param filename name of fastq file(s) to check.
+#' @param filenames name of fastq file(s) to check.
 #' @param nlines number of quality lines to check.
 check_phred <- function(filenames, nlines = 1000) {
   tmp <- lapply(filenames, check_phred_range, nlines = nlines)
