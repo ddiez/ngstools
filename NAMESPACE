@@ -3,6 +3,7 @@
 export(checkAlphabetDistribution)
 export(fsize)
 export(getPhastconsScores)
+export(get_bowtie2_phred)
 export(get_phred)
 export(processPhastCons)
 import(GenomicAlignments)

@@ -64,10 +64,10 @@ get_phred <- function(filenames, nlines = 1000) {
 #' @param filenames character vector with the names of the files.
 #' @param nlines number of files in the FASTQ file used to guess the phred.
 #'
+#' @export
 get_bowtie2_phred <- function(filenames, nlines = 1000) {
   d <- get_phred(filenames, nlines)
-  switch((d[, "phred"]),
-         phred33 = {cat("--phred33")},
-         phred64 = {cat("--phred64")}
-  )
+  d[d[, "phred"] == "phred33", "phred"] <- "--phred33"
+  d[d[, "phred"] == "phred64", "phred"] <- "--phred64"
+  d
 }
