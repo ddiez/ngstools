@@ -24,4 +24,3 @@ Return phastCons scores.
 \examples{
 NULL
 }
-

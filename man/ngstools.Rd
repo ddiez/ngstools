@@ -9,4 +9,3 @@
 For the moment provides some useful tools for the analysis of NGS data.
 Helpful to keep things in one place.
 }
-

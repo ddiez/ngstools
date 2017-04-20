@@ -23,4 +23,3 @@ Adapted from Herve Pages's implementation (TODO: add link to original).
 \examples{
 NULL
 }
-

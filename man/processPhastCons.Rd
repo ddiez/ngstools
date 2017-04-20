@@ -18,4 +18,3 @@ Process a BigWig file with phastConst scores.
 \examples{
 NULL
 }
-

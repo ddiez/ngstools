@@ -18,4 +18,3 @@ Compute the distribution of letters in a Fastq file.
 \examples{
 NULL
 }
-
