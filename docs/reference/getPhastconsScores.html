@@ -25,12 +25,14 @@
 <script src="../pkgdown.js"></script>
 
 <!-- mathjax -->
-<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+<script src='https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
 
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
+
+
   </head>
 
   <body>
@@ -50,6 +52,9 @@
       <ul class="nav navbar-nav">
         <li>
   <a href="../reference/index.html">Reference</a>
+</li>
+<li>
+  <a href="../articles/index.html">Articles</a>
 </li>
       </ul>
       
@@ -73,19 +78,28 @@
     <p>Return phastCons scores.</p>
     
 
-    <pre><span class='fu'>getPhastconsScores</span>(<span class='no'>db</span>, <span class='no'>chr</span>, <span class='no'>start</span>, <span class='no'>end</span>)</pre>
+    <pre class="usage"><span class='fu'>getPhastconsScores</span>(<span class='no'>db</span>, <span class='no'>chr</span>, <span class='no'>start</span>, <span class='no'>end</span>)</pre>
     
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a> Arguments</h2>
-    <dl class="dl-horizontal">
-      <dt>db</dt>
-      <dd>the database of phastCons scores.</dd>
-      <dt>chr</dt>
-      <dd>the chromosome.</dd>
-      <dt>start</dt>
-      <dd>the starting point.</dd>
-      <dt>end</dt>
-      <dd>the end point.</dd>
-    </dl>
+    <table class="ref-arguments">
+    <colgroup><col class="name" /><col class="desc" /></colgroup>
+    <tr>
+      <th>db</th>
+      <td><p>the database of phastCons scores.</p></td>
+    </tr>
+    <tr>
+      <th>chr</th>
+      <td><p>the chromosome.</p></td>
+    </tr>
+    <tr>
+      <th>start</th>
+      <td><p>the starting point.</p></td>
+    </tr>
+    <tr>
+      <th>end</th>
+      <td><p>the end point.</p></td>
+    </tr>
+    </table>
     
     <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
 
