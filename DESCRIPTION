@@ -13,8 +13,9 @@ Imports:
     GenomeInfoDb,
     ShortRead
 Suggests:
-    testthat
+    testthat, knitr
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+VignetteBuilder: knitr
 RoxygenNote: 6.0.1
